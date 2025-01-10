@@ -1,0 +1,143 @@
+{
+    "version": "1.0",
+    "last_updated": "2025-01-08",
+    "universes": [
+      {
+        "description": "한국 MPAA in 연금계좌",
+        "type": 3,
+        "total_investment": 10000000,
+        "investment_rate": 1.0,
+        "priority": 0,
+        "plans": [
+          {
+            "investment_rate": 0.25,
+            "investment_item": "367380",
+            "investment_area": "KR",
+            "investment_item_type": 0,
+            "max_trades": 10,
+            "description": "ACE 미국나스닥100"
+          },
+          {
+            "investment_rate": 0.25,
+            "investment_item": "360200",
+            "investment_area": "KR",
+            "investment_item_type": 0,
+            "max_trades": 10,
+            "description": "ACE 미국S&P500"
+          },
+          {
+            "investment_rate": 0.25,
+            "investment_item": "476760",
+            "investment_area": "KR",
+            "investment_item_type": 1,
+            "max_trades": 10,
+            "description": "ACE 미국30년국채액티브",
+            "note": "2024년 많이 떨어짐 저평가 종목으로 볼수 있다"
+          },
+          {
+            "investment_rate": 0.25,
+            "investment_item": "305080",
+            "investment_area": "KR",
+            "investment_item_type": 1,
+            "max_trades": 10,
+            "description": "TIGER 미국채10년선물"
+          },
+          {
+            "investment_rate": 0,
+            "investment_item": "114260",
+            "investment_area": "KR",
+            "investment_item_type": 2,
+            "max_trades": 10,
+            "description": "KODEX 국고채3년"
+          }
+        ]
+      },
+      {
+        "description": "홍춘욱 서울부동산 소유주 전략 in ISA",
+        "type": 3,
+        "total_investment": 10000000,
+        "investment_rate": 1.0,
+        "priority": 2,
+        "plans": [
+          {
+            "investment_rate": 0.5,
+            "investment_item": "360200",
+            "investment_area": "KR",
+            "investment_item_type": 0,
+            "max_trades": 10,
+            "description": "ACE 미국S&P500",
+            "note": "서울부동산과 반대"
+          },
+          {
+            "investment_rate": 0.5,
+            "investment_item": "476760",
+            "investment_area": "KR",
+            "investment_item_type": 1,
+            "max_trades": 10,
+            "description": "ACE 미국30년국채액티브",
+            "note": "금융위기와 반대"
+          },
+          {
+            "investment_rate": 0,
+            "investment_item": "499660",
+            "investment_area": "KR",
+            "investment_item_type": 2,
+            "max_trades": 10,
+            "description": "TIGER CD금리플러스액티브",
+            "note": "리밸런싱용"
+          }
+        ]
+      }
+    ,
+      {
+        "description": "미국 MPAA",
+        "type": 3,
+        "total_investment": 10000000,
+        "investment_rate": 1.0,
+        "priority": 0,
+        "plans": [
+          {
+            "investment_rate": 0.25,
+            "investment_item": "SPY",
+            "investment_area": "US",
+            "investment_item_type": 0,
+            "max_trades": 10,
+            "description": "SPY"
+          },
+          {
+            "investment_rate": 0.25,
+            "investment_item": "QQQ",
+            "investment_area": "US",
+            "investment_item_type": 0,
+            "max_trades": 10,
+            "description": "QQQ"
+          },
+          {
+            "investment_rate": 0.25,
+            "investment_item": "TLT",
+            "investment_area": "US",
+            "investment_item_type": 1,
+            "max_trades": 10,
+            "description": "TLT"
+          },
+          {
+            "investment_rate": 0.25,
+            "investment_item": "HYG",
+            "investment_area": "US",
+            "investment_item_type": 1,
+            "max_trades": 10,
+            "description": "HYG"
+          },
+          {
+            "investment_rate": 0,
+            "investment_item": "SOFR",
+            "investment_area": "US",
+            "investment_item_type": 2,
+            "max_trades": 10,
+            "description": "SOFR"
+          }
+        ]
+      }
+    ]
+}
+  
